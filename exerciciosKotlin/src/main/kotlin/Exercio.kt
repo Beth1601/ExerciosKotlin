@@ -8,11 +8,11 @@ fun converterAnos(anos: Int){
 
 }
 
-fun exerc02(){
-
+fun cuboExerc02(a:Int, b: Int) :Int{
+    return a*b
 
 }
 fun main (){
     (converterAnos(2))
-    (exerc02())
+    println(cuboExerc02(10, 2))
 }
