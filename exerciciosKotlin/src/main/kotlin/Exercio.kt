@@ -6,9 +6,13 @@ fun converterAnos(anos: Int){
     println(" ${anos *365 *24*60} minutos: ")
     println(" ${anos *365 *24*60*60} segundos: ")
 
+}
+
+fun exerc02(){
+
 
 }
 fun main (){
     (converterAnos(2))
-
+    (exerc02())
 }
