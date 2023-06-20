@@ -1,4 +1,0 @@
-package atributo
-
-class Teste {
-}
