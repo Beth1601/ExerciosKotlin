@@ -1,0 +1,4 @@
+package metodo
+
+class Outra {
+}
