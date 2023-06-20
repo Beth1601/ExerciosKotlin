@@ -1,0 +1,4 @@
+package atributo
+
+class Teste {
+}
