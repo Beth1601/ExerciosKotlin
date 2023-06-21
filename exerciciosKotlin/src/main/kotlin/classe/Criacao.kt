@@ -1,7 +1,16 @@
 package classe
 
+
+
 class Pessoa(val anoNascimento:Int, var nome: String) {
-    var olhos : String = ""
+    var doc: String? = null
+
+
+    constructor ( anoNascimento: Int, nome: String, doc: String) : this (1995, nome){
+        this.doc = doc
+
+    }
+
     fun dormir() {
     }
 
@@ -16,6 +25,9 @@ fun main (){
 
     pessoa.nome
     pessoa.acordar()
+    pessoa.doc
+
+
 
 
 }
