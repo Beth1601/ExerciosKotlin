@@ -26,8 +26,7 @@ class Forma(val a: Int, val b: Int) {
     }
 
 }
-
-
 data class FormaData(val a: Int, val b: Int)
 
-
+data class Endereco(val rua: String,val cep: String, val cidade: String)
+fun endereco (){}
