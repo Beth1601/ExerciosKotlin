@@ -10,8 +10,8 @@ class Receita (){
    }
 
     fun imprimeReceita(){
-        if (instrucoes.length == 0){
-            
+        if (this ::instrucoes.isInitialized){
+            instrucoes = "Lave as mãos"
         }
     }
 }
