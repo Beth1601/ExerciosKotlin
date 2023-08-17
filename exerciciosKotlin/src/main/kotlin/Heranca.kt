@@ -1,4 +1,4 @@
-private class x private constructor()
+class x private constructor()
 open class Eletronico(var marca: String) {
     private val s: String = ""
     private fun ativarCorrente() {}
